@@ -1,0 +1,16 @@
+# Excelバイナリは除外
+*.xlsm
+*.xlsx
+*.xls
+*.xlsb
+
+# VBAエクスポートファイルは管理対象（除外しない）
+# *.bas → 管理する
+# *.cls → 管理する
+# *.frm → 管理する
+
+# OS・一時ファイル
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
